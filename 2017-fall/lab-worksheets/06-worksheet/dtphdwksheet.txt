@@ -1,0 +1,40 @@
+DT PHD
+
+Due on Tuesday (Nov, 14th) at Midnight
+Copy the worksheet, answer the questions, and SUBMIT TO [OUR GITHUB REPOSITORY] via pull request (see question 8).
+It is recommended that you Complete the GitHub "Hello World" tutorial before starting with this worksheet.
+
+1.In your own words, what is version (or source) control?
+
+Version control is essentially a system that notes changes to files or a file through time and between users so that you can go back and see previous versions of the files. It allows you to essentially see a history of the files and their contents at various moments in time. This is particularly useful when there are many users working on a single set of files. 
+
+2. Explain the difference between Git and GitHub.
+
+Git is the open source software for versioning and version control. Github is a business that offers a repository (both freebie and paid versions) for said versioned software. 
+
+3. In a few sentences, explain what a "commit" is?
+
+Essentially, a commit is taking a snapshot of that file as it is exists, then “pushing” that commit or snapshot of the file often to GitHub in this example (this file has probably been changed such that you want to push the new version to GitHub).  A “commit” is an action to contribute changes to a section of code from a given repository of code, which manifests as a new version of that file along a timeline. 
+
+4. What is a "branch" in Git terms?
+
+A branch in Git is a point to commits or these “snapshots” mentioned above. When you branch in a certain direction away from the “master” branch, it will continue through that timeline if you choose to make commits to that branch, or in that direction.  For instance, if you create a “test” branch, you can essentially take a snapshot from the master, and continue to edit or change the file, taking snapshots in commits. Branches can later be merged as well. I like to think of branches as an alternate and parallel timeline from the master.  
+
+5. What is a repository? Explain what happens when you "push" to and "pull" from a repository.
+
+Simply put, a repository is the place where the history of work is stored. Git stores information in a data structure called a repository. This repository holds the files but also the versioning and documentation. Repositories can be accessed by many people, in open source, or privately. Pushing to a repository involves sending commits from a given branch of code that you are working on locally back to the remote server. Pulling is the opposite: getting the files from the remote repository and copying/merging those changes to keep your copy up to date.
+
+6. What is involved in the "clone" operation?
+
+Clone is essentially copying all of the code onto your machine or into the repository online. The data from the online repository will now exist locally on the machine where you can edit it, instead of editing it from a server. That said, the clone is connected to that version on the server for ease of syncing. 
+
+7. Find an example of Git being used for a peer production project. In several paragraphs answer the following: Who are they? What do they do? Who maintains the repository? What are the rules for contributing?
+
+https://github.com/national-voter-file/national-voter-file
+
+I chose a peer production project with interesting privacy implications. It is a project of the Progressive Coders Network (a lot of former “coders for bernie” who had their own slack channel to work on open source election tools). The project is a national voter file that is available to political candidates and issue-based nonprofits. It exists because sometimes voter files are only available via certain political parties, making campaigning as a third party or poorly affiliated candidate difficult. People can contribute voter files from every state (they have nine states done). Then prog code, which is now a fairly open, but still application based community of volunteers, will extract and transform the data into CSVs, put it on a postgres database, then build a simple API (which they haven’t done yet) for consumers. They ask that you join their Slack channel, get a local development environment using Docker, and look at the Projects backlog to contribute. I joined Prog Code after a small application and got in within a week or so. It is a very supportive and active slack community! 
+
+I chose Alliance Network’s Amoeba, which is a P2P data sharing software “with high anonymity”
+
+
+8. Submit this worksheet by filing a pull request to our Github repository.
