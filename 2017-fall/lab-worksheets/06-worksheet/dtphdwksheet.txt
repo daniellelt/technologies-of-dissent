@@ -1,4 +1,4 @@
-DT PHD
+DT PHD Update
 
 Due on Tuesday (Nov, 14th) at Midnight
 Copy the worksheet, answer the questions, and SUBMIT TO [OUR GITHUB REPOSITORY] via pull request (see question 8).
